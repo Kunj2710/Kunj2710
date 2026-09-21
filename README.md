@@ -1,79 +1,53 @@
-<h1 align="center">Hi, I'm Kunj Patel 👋</h1>
-<h3 align="center">Data Analytics grad student at Boston University · Former software developer · I build ML, big-data and LLM systems that ship</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Kunj Patel: Data Scientist · ML & Data Engineer" src="assets/header-light.svg" width="100%">
+</picture>
 
-<p align="center">
-  <a href="https://linkedin.com/in/kunj2710"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:kunjpatel271002@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <img src="https://img.shields.io/badge/Boston,%20MA-555?style=for-the-badge&logo=googlemaps&logoColor=white">
-  <img src="https://img.shields.io/badge/Open%20to-Data%20Science%20%7C%20Analytics%20%7C%20ML%20roles-2EA44F?style=for-the-badge">
-</p>
+I build data systems end to end, from a 25 GB Spark pipeline to the model and the dashboard someone actually opens. Before grad school I spent a year shipping production software: a hospital information system used by 1,000+ healthcare workers, and a sales-analytics platform where I went from intern to leading a team of five.
 
----
+What I care about: **picking the metric that matters, not the one that's easy.** My favourite result so far is showing that the *second-least* accurate of six heart-disease models is the one that saves the most lives.
 
-### 🧭 About me
+- 🎓 &nbsp;M.S. Applied Data Analytics, **Boston University** (GPA 3.8)
+- 🔭 &nbsp;Looking for **Data Science / ML / Data Engineering** internships and new-grad roles
+- 📫 &nbsp;[LinkedIn](https://linkedin.com/in/kunj2710) · [kunjpatel271002@gmail.com](mailto:kunjpatel271002@gmail.com) · Boston, MA
 
-- 🎓 **M.S. Applied Data Analytics**, Boston University (GPA 3.8), 2025 to present
-- 💼 **1+ year of industry experience** as a software developer and project lead, shipping production healthcare and sales-analytics platforms
-- ⚡ At **Artem HealthTech** I optimized a hospital information system used by 1,000+ healthcare workers: **35% faster page loads**, and a Redis cache that cut DB load 40% (**$3K/month saved**)
-- 🚀 At **Wellnest Tech** I was promoted from intern to project lead in 3 months, led 5 developers, and cut deployment time **from 3 days to 4 hours** with CI/CD
-- 🔬 Currently into: distributed ML on Spark, RAG systems, and cost-aware model evaluation
+<br>
 
----
+## Selected work
 
-### 🌟 Featured projects
+**[WikiFlow](https://github.com/Kunj2710/wikiflow)**: Predicting Wikipedia editor dropout from 60M revision events
+<br><sub>Logistic regression and K-Means written from scratch on Spark RDDs, a distributed Keras DNN, and live scoring of the Wikipedia edit stream through Kafka. Runs on GCP Dataproc and BigQuery. &nbsp;`PySpark` `Kafka` `GCP` `Keras`</sub>
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[WikiFlow](https://github.com/Kunj2710/wikiflow)** | Predicts which new Wikipedia editors will quit, using **60M revision events (25 GB)**. Custom logistic regression and K-Means on Spark RDDs, a distributed Keras DNN, and **live Kafka streaming** scoring | Spark · Kafka · GCP Dataproc · BigQuery · Keras |
-| **[RAG Document Q&A](https://github.com/Kunj2710/rag-document-qa)** | Chat with PDFs, web pages, Wikipedia and arXiv: question answering, summarization and answer walkthroughs, with a Streamlit UI and a FastAPI/LangServe API | LangChain · ChromaDB/FAISS · OpenAI · FastAPI · Streamlit |
-| **[Beyond Accuracy: CVD Classifier](https://github.com/Kunj2710/cvd-referral-cost-classifier)** | Re-ranks 6 heart-disease classifiers by **clinical cost** instead of accuracy. The "worst" model saves **$9.7M per 10K patients**. Includes fairness and robustness audits | Python · scikit-learn · pandas |
-| **[Cassandra vs MongoDB](https://github.com/Kunj2710/cassandra-vs-mongodb-benchmark)** | Benchmarks 4 workloads on 13M NYC taxi trips on GCP. Cassandra writes 2.2× faster; MongoDB aggregates 5× faster | Cassandra · MongoDB · Python · GCP |
-| **[Football Market Value](https://github.com/Kunj2710/football-market-value-analysis)** | What drives transfer value? Regression, ANOVA, chi-square and odds ratios on 900 top-5-league players, uncovering an "Aging Star Discount" of about €14M | R · R Markdown |
+**[Beyond Accuracy](https://github.com/Kunj2710/cvd-referral-cost-classifier)**: Choosing a heart-disease model by what mistakes actually cost
+<br><sub>Six classifiers on 70K patients. Once they're ranked by clinical cost, a model that placed 5th on accuracy saves **$9.7M and 65 missed diagnoses per 10K patients**. Includes fairness, robustness and sensitivity audits. &nbsp;`scikit-learn` `pandas`</sub>
 
----
+**[RAG Document Q&A](https://github.com/Kunj2710/rag-document-qa)**: Ask questions across PDFs, web pages, Wikipedia and arXiv
+<br><sub>LangChain pipeline with pluggable vector stores (Chroma, FAISS, ObjectBox) and LLMs (OpenAI, Groq, local), served through a Streamlit UI and a FastAPI/LangServe API. &nbsp;`LangChain` `FastAPI` `Streamlit`</sub>
 
-### 🛠️ Tech stack
+**[Cassandra vs MongoDB](https://github.com/Kunj2710/cassandra-vs-mongodb-benchmark)**: Benchmarking four workloads on 13M NYC taxi trips
+<br><sub>Cassandra writes **2.2× faster**; MongoDB deletes **30× faster** and aggregates **5× faster**. Also covers the async-write mistake that made my first results wrong. &nbsp;`Cassandra` `MongoDB` `GCP`</sub>
 
-**Languages**
-<p>
-  <img src="https://skillicons.dev/icons?i=python,r,java,js,ts,mysql,postgres,latex" />
-</p>
+**[Football Market Value](https://github.com/Kunj2710/football-market-value-analysis)**: What actually drives a player's transfer price?
+<br><sub>Regression, ANOVA, chi-square and odds ratios on 900 top-5-league players. Finds an "aging star discount" of about €14M. &nbsp;`R`</sub>
 
-**Data, ML and big data**
-<p>
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white">
-  <img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
-  <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white">
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white">
-  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black">
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white">
-</p>
+<br>
 
-**Databases, cloud and tools**
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,redis,gcp,aws,docker,git,angular,dotnet,fastapi" />
-  <br>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/Cassandra-1287B1?style=flat-square&logo=apachecassandra&logoColor=white">
-</p>
+## Experience
 
----
+**Software Developer** · Artem HealthTech &nbsp;<sub>2024</sub>
+<br><sub>Cut page-load time 35% on a hospital information system used by 1,000+ healthcare workers. A Redis caching layer reduced database load 40% and saved $3K/month.</sub>
 
-### 💼 Experience
+**Project Leader** · Wellnest Tech &nbsp;<sub>2024 · promoted from intern in 3 months</sub>
+<br><sub>Led 5 developers on an Angular/.NET sales-analytics platform for 200+ daily users. Built CI/CD that cut deploys from 3 days to 4 hours.</sub>
 
-| Role | Company | When |
-|---|---|---|
-| Software Developer | Artem HealthTech | May 2024 to Sep 2024 |
-| Project Leader (promoted from intern) | Wellnest Tech | Jan 2024 to May 2024 |
-| Software Developer Intern | Telnet | Jul 2023 to Aug 2023 |
+**Software Developer Intern** · Telnet &nbsp;<sub>2023</sub>
+<br><sub>Built an Angular recipe platform for 500+ beta users. Its one-click cart reached 70% adoption in two weeks.</sub>
 
----
+<br>
 
-<p align="center"><i>Always happy to talk data, ML, or a role where I can help. Reach out on <a href="https://linkedin.com/in/kunj2710">LinkedIn</a>.</i></p>
+## Toolbox
+
+**Daily** &nbsp;Python · SQL · pandas · scikit-learn · PySpark · Git · Jupyter
+<br>**Also shipped with** &nbsp;R · Kafka · LangChain · FastAPI · Streamlit · TensorFlow/Keras · XGBoost · FAISS
+<br>**Data & cloud** &nbsp;PostgreSQL · MySQL · MongoDB · Cassandra · Redis · BigQuery · GCP · AWS (S3, EC2) · Docker
+<br>**BI & web** &nbsp;Tableau · Power BI · Angular · .NET · TypeScript
