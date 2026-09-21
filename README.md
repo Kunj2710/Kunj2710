@@ -5,7 +5,7 @@
 
 I build data systems end to end, from a 25 GB Spark pipeline to the model and the dashboard someone actually opens. Before grad school I spent a year shipping production software: a hospital information system used by 1,000+ healthcare workers, and a sales-analytics platform where I went from intern to leading a team of five.
 
-What I care about: **picking the metric that matters, not the one that's easy.** My favourite result so far is showing that the *second-least* accurate of six heart-disease models is the one that saves the most lives.
+What I care about: **picking the metric that matters, not the one that's easy.** It keeps coming up in my work: ranked by clinical cost, a 5th-place heart-disease model saves the most lives, and in my trading backtests the two *least* accurate models made the most money.
 
 - 🎓 &nbsp;M.S. Applied Data Analytics, **Boston University** (GPA 3.8)
 - 🔭 &nbsp;Looking for **Data Science / ML / Data Engineering** internships and new-grad roles
@@ -29,6 +29,23 @@ What I care about: **picking the metric that matters, not the one that's easy.**
 
 **[Football Market Value](https://github.com/Kunj2710/football-market-value-analysis)**: What actually drives a player's transfer price?
 <br><sub>Regression, ANOVA, chi-square and odds ratios on 900 top-5-league players. Finds an "aging star discount" of about €14M. &nbsp;`R`</sub>
+
+<br>
+
+<!-- more-projects:start -->
+## More projects
+
+| | Project | Result |
+|:--|:--|:--|
+| 📈 | [**Can ML beat buy-and-hold?**](https://github.com/Kunj2710/stock-trading-ml-backtest) | Backtested 10 classifiers on 5 years of Coca-Cola stock; only 3 beat buy-and-hold, and the least accurate earned the most |
+| ⚡ | [**Big data algorithms in PySpark**](https://github.com/Kunj2710/spark-big-data-algorithms) | External merge sort, NYC-taxi analytics, TF-IDF kNN and gradient descent written on RDDs, without MLlib |
+| 🏠 | [**Disability prediction, AHS 2023**](https://github.com/Kunj2710/ahs-disability-prediction) | Found 1,038 vacant units hiding in 9,241 Census household records *(team project)* |
+| 🫀 | [**Fetal health from CTG**](https://github.com/Kunj2710/fetal-health-ctg-classifier) | 88.8% accuracy, but only 63% of abnormal cases caught: why imbalance hides failure |
+| 🏢 | [**BU building energy benchmarks**](https://github.com/Kunj2710/boston-building-energy-benchmarks) | 82 BU buildings run about 40% above Boston's average energy intensity (city BERDO data) |
+| 💵 | [**Banknote forgery detection**](https://github.com/Kunj2710/banknote-forgery-detection) | From a 71% hand-written rule to 100% with kNN, plus a feature-ablation study |
+| 🔗 | [**Clustering Dow Jones stocks**](https://github.com/Kunj2710/dow-jones-stock-clustering) | Residual-return k-means over 60 months; sector peers don't reliably move together |
+| 🧰 | [**Data mining in R**](https://github.com/Kunj2710/r-data-mining-toolkit) | Feature selection (CFS, Boruta, RFE), LASSO, caret ensembles, Apriori, k-means |
+<!-- more-projects:end -->
 
 <br>
 
