@@ -39,7 +39,7 @@ What I care about: **picking the metric that matters, not the one that's easy.**
 |:--|:--|:--|
 | 📈 | [**Can ML beat buy-and-hold?**](https://github.com/Kunj2710/stock-trading-ml-backtest) | Backtested 10 classifiers on 5 years of Coca-Cola stock; only 3 beat buy-and-hold, and the least accurate earned the most |
 | ⚡ | [**Big data algorithms in PySpark**](https://github.com/Kunj2710/spark-big-data-algorithms) | External merge sort, NYC-taxi analytics, TF-IDF kNN and gradient descent written on RDDs, without MLlib |
-| 🏠 | [**Disability prediction, AHS 2023**](https://github.com/Kunj2710/ahs-disability-prediction) | Found 1,038 vacant units hiding in 9,241 Census household records *(team project)* |
+| 🏠 | [**Disability prediction, AHS 2023**](https://github.com/Kunj2710/ahs-disability-prediction) | 70+ models on Census data; undersampling beat SMOTE, and gradient boosting catches 73.6% of disability households (AUC 0.84) *(team project)* |
 | 🫀 | [**Fetal health from CTG**](https://github.com/Kunj2710/fetal-health-ctg-classifier) | 88.8% accuracy, but only 63% of abnormal cases caught: why imbalance hides failure |
 | 🏢 | [**BU building energy benchmarks**](https://github.com/Kunj2710/boston-building-energy-benchmarks) | 82 BU buildings run about 40% above Boston's average energy intensity (city BERDO data) |
 | 💵 | [**Banknote forgery detection**](https://github.com/Kunj2710/banknote-forgery-detection) | From a 71% hand-written rule to 100% with kNN, plus a feature-ablation study |
